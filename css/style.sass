@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&subset=cyrillic,cyrillic-ext')
+    
+$grey: #2D2D2D
+$lightgreytext: #B4B0B0
+$lightergreytext: #928F8F
+
+html
+    background-color: #E5E5E5
+*
+    font-family: Roboto, sans-serif
+    box-sizing: border-box
+
+.container
+    position: relative
+    display: flex
+    width: 1140px
+    height: 1620px
+    margin: 20px auto
+    box-shadow: 0 0 30px rgba(0,0,0,0.5)
+.left-column
+    position: relative
+    width: 370px
+    height: 1620px
+    background-color: $grey
+.circle-foto
+    position: absolute
+    width: 226px
+    height: 226px
+    border-radius: 50%
+    border: 1px solid white
+    margin: 55px 72px 15px
+    background: url('image/main_foto_sepia_2.jpg') no-repeat center center / cover
+.title
+    text-transform: uppercase
+    font-weight: 500
+    font-size: 21px
+    color: #ffffff
+    letter-spacing: 3px
+.line
+    display: block
+    width: 227px
+    height: 2px
+    background-color: #ffffff
+    margin-top: 15px
+
+.main-info-block
+    position: absolute
+    margin: 310px 0 0 65px
+.info-block
+    width: 250px
+    margin-bottom: 30px
+.info-block__item
+    display: flex
+    align-items: center
+.info-block__item_foto
+    display: block
+    width: 30px
+    height: 30px
+    color: #ffffff
+.info-block__item_description
+    margin-left: 25px
+.info-block__item_description_1
+    font-size: 19px
+    color: #ffffff
+    letter-spacing: 2px
+    margin-bottom: 5px
+.info-block__item_description_2
+    color: $lightgreytext
+    letter-spacing: 2px
+.foto_1
+    background: url('image/person-female.png') no-repeat center center / cover
+.foto_2
+    background: url('image/phone.png') no-repeat center center / cover
+.foto_3
+    background: url('image/secured.png') no-repeat center center / cover
+.foto_4
+    background: url('image/web.png') no-repeat center center / cover
+.email,
+.tel,
+.vkontakte,
+.facebook,
+.linkedin,
+.skype
+    text-decoration: none
+    color: $lightgreytext
+    &:hover
+        color: #ffffff
+        transition: .8s
+.foto_5
+    background: url('image/skype.png') no-repeat center center / cover
+.foto_6
+    background: url('image/linkedin.png') no-repeat center center / cover
+.foto_7
+    background: url('image/facebook.png') no-repeat center center / cover
+.foto_8
+    background: url('image/vkontakte.png') no-repeat center center / cover
+
+.right-column
+    width: 770px
+.main-name-block
+    width: 650px
+    height: 120px
+    text-align: right
+    margin-top: 100px
+.name-block
+    text-transform: uppercase
+    font-weight: 500
+    font-size: 60px
+    letter-spacing: 5px
+.position-block
+    font-size: 30px
+    letter-spacing: 4px
+    color: #4F4C4C
+.main-block
+    display: flex
+    width: 700px
+    height: 1390px
+    margin-left: 50px
+.circle
+    width: 52px
+    height: 52px
+    border-radius: 50%
+    border: 2px solid $grey
+.vertical-line
+    display: block
+    width: 2px
+    height: 535px
+    background-color: $grey
+.circle-mini
+    position: absolute
+    width: 18px
+    height: 18px
+    border-radius: 50%
+    border: 2px solid $grey
+    background-color: #F3F3F3
+.circle-mini_1
+    top: 86px
+.circle-mini_2
+    top: 214px
+.circle-mini_3
+    top: 394px
+.circle-mini_4
+    top: 583px
+.main-block_left-column
+    position: relative
+    display: flex
+    flex-direction: column
+    align-items: center
+    width: 60px
+    height: 1390px
+    margin-top: 76px
+.main-block_right-column
+    width: 640px
+    height: 1390px
+    margin-left: 15px
+.title_main
+    text-transform: uppercase
+    font-weight: 600
+    margin-top: 90px
+    font-size: 21px
+    color: $grey
+    letter-spacing: 3px
+.line_main
+    display: block
+    width: 610px
+    height: 2px
+    background-color: $grey
+    margin-top: 15px
+.work-experince-block
+    display: flex
+.work-experince-block-year
+    width: 110px
+    text-align: right
+.year
+    width: 90px
+    color: $grey
+    font-weight: 600
+.month
+    width: 90px
+    font-size: 8px
+    color: $lightergreytext
+pre
+    margin: 0
+.work-experince-block-description
+    width: 510px
+.name-company
+    text-transform: uppercase
+    font-weight: 600
+    color: $grey
+    letter-spacing: 2px
+    margin-left: 40px
+.name-position
+    font-weight: 500
+    color: $grey
+    letter-spacing: 2px
+    margin-left: 40px
+li
+    font-size: 15px
+    color: #494949
+    letter-spacing: 2px
+    margin-bottom: 6px
