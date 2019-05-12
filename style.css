@@ -1,1 +1,19 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 15px auto 15px;
+}
+
+.left-column {
+  width: 368px;
+  height: 1620px;
+  background-color: #2D2D2D;
+  border: 1px solid greenyellow;
+}
+/*# sourceMappingURL=style.css.map */
